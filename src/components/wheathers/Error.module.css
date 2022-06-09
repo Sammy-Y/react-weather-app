@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  /* justify-items: center; */
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.content p {
+  font-size: 2rem;
+}
+
+.actions {
+  width: 10%;
+  margin-top: 2rem;
+  margin-left: 40%;
+}
+
+.actions button {
+  border: 2px solid #642;
+  border-radius: 20px;
+  padding: 0.75rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1rem;
+}

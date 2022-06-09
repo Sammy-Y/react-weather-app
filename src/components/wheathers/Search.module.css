@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+.form input {
+  background-color: transparent;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 35vw;
+  height: 5vh;
+  border: none;
+  color: rgb(161, 146, 179);
+  border-bottom: solid thin rgb(141, 69, 229);
+}
+
+.form button {
+  color: rgb(161, 146, 179);
+  background-color: transparent;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2vw;
+  height: 2vh;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
