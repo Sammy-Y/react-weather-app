@@ -2,6 +2,8 @@ import { useCallback, useRef } from "react";
 
 import classes from "./Search.module.css";
 
+import locationIcon from "../../Icon/location.png";
+
 const Search = (props) => {
   const cityInputRef = useRef();
 
@@ -12,16 +14,19 @@ const Search = (props) => {
   });
 
   return (
-    <form onSubmit={submitHandler} className={classes.form}>
-      <input
-        id="city"
-        type="text"
-        autoComplete="off"
-        placeholder="ENTER CITY , COUNTRY"
-        ref={cityInputRef}
-      />
-      <button>Go</button>
-    </form>
+    <div className={classes.main}>
+      <img src={locationIcon} title="Get Your Location" />
+      <form onSubmit={submitHandler} className={classes.form}>
+        <input
+          id="city"
+          type="text"
+          autoComplete="off"
+          placeholder="ENTER CITY , COUNTRY"
+          ref={cityInputRef}
+        />
+        <button>Go</button>
+      </form>
+    </div>
   );
 };
 

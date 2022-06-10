@@ -27,7 +27,7 @@ const Weathers = (props) => {
           />
         </div>
         <div className={classes.content}>
-          <p className={classes.weather}>{props.curWeather.main}</p>
+          <p className={classes.weather}>{props.curWeather.description}</p>
         </div>
         <div className={classes.content}>
           <h2>{isDegreeCel ? degreeCel : degreeFah}</h2>
